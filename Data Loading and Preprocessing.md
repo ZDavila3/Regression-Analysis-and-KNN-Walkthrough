@@ -86,7 +86,8 @@ print(df['column_name'].value_counts())
 ```python
 print(df.sample(5))  # Randomly shows 5 rows
 ```
-Learn more about Pandas built in functions here: https://pandas.pydata.org/pandas-docs/stable/reference/general_functions.html
+
+
 
 Sources: 
 
