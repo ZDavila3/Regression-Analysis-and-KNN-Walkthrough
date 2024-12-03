@@ -1,2 +1,19 @@
 ![image](https://github.com/user-attachments/assets/ac7eb556-9d83-4b2e-8c09-b9a0dfd6869e)
 
+## What is data cleaning? 
+Data cleaning, also known as data cleansing or data scrubbing, is the process of identifying and correcting (or removing) errors, inconsistencies, and inaccuracies within a dataset.
+
+The importance of data cleaning lies in the following factors:
+
+- Improved data quality: It is therefore very important to clean the data as this reduces the chances of errors, inconsistencies and missing values, which ultimately makes the data to be more accurate and reliable in the analysis.
+- Better decision-making: Consistent and clean data gives organization insight into comprehensive and actual information and minimizes the way such organizations make decisions on outdated and incomplete data.
+- Increased efficiency: High quality data is efficient to analyze, model or report on it, whereas clean data often avoids a lot of foreseen time and effort that goes into handling poor data quality.
+
+| Common Data Quality Issues | Example                |
+|----------------------------| -------------------------- |
+| Missing Values             | Absence of a value in a dataset. |
+| Duplicate Data | Identical or nearly identical records appearing multiple times in a dataset. |
+| Incorrect Data Type | String data represented as Int data type | 
+| Formatting Inconsistencies | Creating a standardized date format and capitalization.|
+|Outliers and Anomalies | Observations whose values are unusually high or low compared to other observations|
+| Spelling / Typographical Errors | Misspelling and typos can occur in qualitative data |
