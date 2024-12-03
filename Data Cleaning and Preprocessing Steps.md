@@ -43,3 +43,5 @@ In terminal, run the following command:
 ```Powershell
   pip install numpy
 ```
+
+## Implementing data cleaning funtions
