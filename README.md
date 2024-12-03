@@ -58,12 +58,29 @@ print(df.describe())
 print(df.shape)  # (rows, columns)
 ```
 - `.columns` : Returns a list of the column names in the DataFrame.
+```python
+print(df.columns)
+```
 - `.dtypes` : Returns the data types of each column in the DataFrame.
+```python
+print(df.dtypes)
+```
 - `.isnull()` : Returns a DataFrame of the same shape with True for missing values and False otherwise.
-- `.sum()` : Can be used to count the number of missing values in each column.
+```python
+print(df.isnull())
+```
+- `.isnull()` + `.sum()` : Can be used to count the number of missing values in each column.
+```python
+print(df.isnull().sum())  # Count of missing values in each column
+```
 - `.value_counts()` : Provides the frequency of unique values in a column, useful for categorical data.
+```python
+print(df['column_name'].value_counts())
+```
 - `.sample()` : Returns a random sample of rows from the DataFrame. Useful for getting a random subset of your data.
-
+```python
+print(df.sample(5))  # Randomly shows 5 rows
+```
 Learn more about Pandas built in functions: https://pandas.pydata.org/pandas-docs/stable/reference/general_functions.html
 
 
