@@ -21,7 +21,7 @@ The importance of data cleaning lies in the following factors:
 
 ## Common Python libraries used for general-purpose data cleaning
 
-# Pandas
+### Pandas
 
   Key Features for Data Cleaning:
 - Handling Missing Data: `isnull()`, `dropna()`, `fillna()`.
@@ -30,7 +30,7 @@ The importance of data cleaning lies in the following factors:
 - Filtering and Subsetting Data: Boolean indexing, `query()`.
 - String Operations: `str.contains()`, `str.replace()` for cleaning text data.
 
-# NumPy - A fundamental package for numerical computations, often used with pandas for more advanced operations.
+### NumPy - A fundamental package for numerical computations, often used with pandas for more advanced operations.
 
   Key Features for Data Cleaning:
 - Handling Missing Data: NumPy arrays represent missing values as `np.nan`.
