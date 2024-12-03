@@ -23,7 +23,7 @@ The importance of data cleaning lies in the following factors:
 
 1. Pandas
 
-Key Features for Data Cleaning:
+  Key Features for Data Cleaning:
 - Handling Missing Data: `isnull()`, `dropna()`, `fillna()`.
 - Removing Duplicates: `duplicated()`, `drop_duplicates()`.
 - Data Type Conversion: `astype()`.
@@ -32,7 +32,7 @@ Key Features for Data Cleaning:
 
 2. NumPy - A fundamental package for numerical computations, often used with pandas for more advanced operations.
 
-Key Features for Data Cleaning:
+  Key Features for Data Cleaning:
 - Handling Missing Data: NumPy arrays represent missing values as `np.nan`.
 - Data Transformation: Apply mathematical or logical operations efficiently.
 - Filtering Data: Boolean masks.
