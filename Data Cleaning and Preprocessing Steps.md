@@ -17,3 +17,20 @@ The importance of data cleaning lies in the following factors:
 | Formatting Inconsistencies | Creating a standardized date format and capitalization.|
 |Outliers and Anomalies | Observations whose values are unusually high or low compared to other observations|
 | Spelling / Typographical Errors | Misspelling and typos can occur in qualitative data |
+
+
+## Common Python libraries used for general-purpose data cleaning
+
+1. Pandas
+Key Features for Data Cleaning:
+- Handling Missing Data: `isnull()`, `dropna()`, `fillna()`.
+- Removing Duplicates: `duplicated()`, `drop_duplicates()`.
+- Data Type Conversion: `astype()`.
+- Filtering and Subsetting Data: Boolean indexing, `query()`.
+- String Operations: `str.contains()`, `str.replace()` for cleaning text data.
+
+2. NumPy - A fundamental package for numerical computations, often used with pandas for more advanced operations.
+Key Features for Data Cleaning:
+- Handling Missing Data: NumPy arrays represent missing values as `np.nan`.
+- Data Transformation: Apply mathematical or logical operations efficiently.
+- Filtering Data: Boolean masks.
