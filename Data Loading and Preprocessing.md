@@ -17,6 +17,7 @@ Pandas gives you answers about the data. Like:
 Pandas are also able to delete rows that are not relevant, or contains wrong values, like empty or NULL values. This is called cleaning the data.
 
 ## How to install pandas? 
+In terminal, run the following command:
 ```Powershell
   pip install pandas
 ```
