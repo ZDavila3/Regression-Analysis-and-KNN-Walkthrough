@@ -9,6 +9,7 @@ The importance of data cleaning lies in the following factors:
 - Better decision-making: Consistent and clean data gives organization insight into comprehensive and actual information and minimizes the way such organizations make decisions on outdated and incomplete data.
 - Increased efficiency: High quality data is efficient to analyze, model or report on it, whereas clean data often avoids a lot of foreseen time and effort that goes into handling poor data quality.
 
+
 | Common Data Quality Issues | Example                |
 |----------------------------| -------------------------- |
 | Missing Values             | Absence of a value in a dataset. |
