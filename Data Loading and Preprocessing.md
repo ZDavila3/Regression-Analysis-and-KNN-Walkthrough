@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/9805e518-2265-46e8-b3fb-95faca1f18b1)
+
 ## Loading Data Using Pandas
 
 Pandas is widely-used open-source Python library for data manipulation and analysis. It provides data structures like DataFrame (df) and Series to handle data efficiently and offers a wide variety of functions to clean, transform, analyze, and visualize data. It is often used for tasks such as data loading, preparation, filtering, aggregation, and merging.
