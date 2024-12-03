@@ -46,3 +46,14 @@ In terminal, run the following command:
 ```
 
 ## Implementing data cleaning funtions
+
+Dropping Duplicates using the drop_duplicates function and modifying the original file. 
+```Python
+df.drop_duplicates(inplace=True)
+```
+df.loc[(df==0).any(axis=1)]
+
+columns_to_check = ['RestingBP', 'Cholesterol', 'MaxHR', 'Age']
+df[columns_to_check] = df[columns_to_check].replace(0, np.nan)
+print(df.isna().sum())
+
