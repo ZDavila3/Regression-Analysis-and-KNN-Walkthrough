@@ -32,6 +32,12 @@ The importance of data cleaning lies in the following factors:
 
 ### NumPy - A fundamental package for numerical computations, often used with pandas for more advanced operations.
 
+How to install NumPy? 
+
+In terminal, run the following command:
+```Powershell
+  pip install numpy
+```
   Key Features for Data Cleaning:
 - Handling Missing Data: NumPy arrays represent missing values as `np.nan`.
 - Data Transformation: Apply mathematical or logical operations efficiently.
