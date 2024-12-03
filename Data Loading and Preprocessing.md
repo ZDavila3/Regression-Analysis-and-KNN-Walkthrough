@@ -32,6 +32,7 @@ Common Pandas Functions to Load Data:
 - `pd.read_html()`: Reads tables from HTML pages.
 
 Example code of uploading my data set called "dairy_dataset.csv"
+
 Data set can be downloaded here: https://www.kaggle.com/datasets/suraj520/dairy-goods-sales-dataset/data
 ```Python
 import pandas as pd
