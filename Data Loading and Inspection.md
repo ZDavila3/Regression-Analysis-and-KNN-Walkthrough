@@ -68,23 +68,23 @@ df.columns
 ```
 - `.dtypes` : Returns the data types of each column in the DataFrame.
 ```python
-print(df.dtypes)
+df.dtypes
 ```
 - `.isnull()` : Returns a DataFrame of the same shape with True for missing values and False otherwise.
 ```python
-print(df.isnull())
+df.isnull()
 ```
 - `.isnull()` + `.sum()` : Can be used to count the number of missing values in each column.
 ```python
-print(df.isnull().sum())  # Count of missing values in each column
+df.isnull().sum()  # Count of missing values in each column
 ```
 - `.value_counts()` : Provides the frequency of unique values in a column, useful for categorical data.
 ```python
-print(df['column_name'].value_counts())
+df['column_name'].value_counts()
 ```
 - `.sample()` : Returns a random sample of rows from the DataFrame. Useful for getting a random subset of your data.
 ```python
-print(df.sample(5))  # Randomly shows 5 rows
+df.sample(5)  # Randomly shows 5 rows
 ```
 
 
