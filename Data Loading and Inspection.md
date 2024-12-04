@@ -44,27 +44,27 @@ df
 In Pandas, there are several useful functions to inspect and understand your data once it is loaded into a DataFrame. Here are some of the most commonly used ones:
 - `.head()` : By default, it shows the first 5 rows of your data set.
 ```Python
-print(df.head()) # defaults to first five, input a nummber to customize like .head(10)
+df.head() # defaults to first five, input a nummber to customize like .head(10)
 ```
 - `.tail()` : By default, it shows the last 5 rows of your data set.
 ```Python
-print(df.tail()) # defaults to last five, input a nummber to customize like .tail(10)
+df.tail() # defaults to last five, input a nummber to customize like .tail(10)
 ```
 - `.info()` : Provides a summary of the DataFrame, including the number of non-null entries, column names, data types, and memory usage.
 ```python
-print(df.info())
+df.info()
 ```
 - `.describe()` : Gives descriptive statistics for numerical columns, such as count, mean, standard deviation, min, max, and quartiles (25%, 50%, 75%)
 ```python
-print(df.describe())
+df.describe()
 ```
 - `.shape` : Returns a tuple representing the dimensions of the DataFrame: (number of rows, number of columns).
 ```python
-print(df.shape)  # (rows, columns)
+df.shape  # (rows, columns)
 ```
 - `.columns` : Returns a list of the column names in the DataFrame.
 ```python
-print(df.columns)
+df.columns
 ```
 - `.dtypes` : Returns the data types of each column in the DataFrame.
 ```python
