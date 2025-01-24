@@ -70,7 +70,7 @@ df.columns
 ```
 - `.index` : View the index of your CSV file.
 ```Python
-df,index
+df.index
 ```
 - `.dtypes` : Returns the data types of each column in the DataFrame.
 ```python
