@@ -74,3 +74,16 @@ print(df.isna().sum())
 df['column6name'] = df['column6name'].astype(int)
 #Referencce Data Loading and Inspection to find out how to get the data types of your dataset. 
 ```
+
+### Stripping - Eliminating a specific characteristic from the front/back end of a word or name. 
+```python
+#Have to combine everything you want to strip into a single string
+
+#left strip
+df['column6name] = df['column6name'].str.lstrip("/._")
+#Right Strip
+df['column6name] = df['column6name'].str.rstrip("/._")
+#Regular strip (applicable on both sides)
+df['column6name] = df['column6name'].str.strip("/._")
+```
+
