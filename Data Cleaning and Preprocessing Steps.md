@@ -70,7 +70,7 @@ print(df.isna().sum())
 
 ### .astype() - Changing a columns data type (ie. from string to int)
 ```Python
-#We are changing the datatype of 'column6name' to be and integer data type. 
-#Referencce Data Loading and Inspection to find out how to get the data types of your dataset. 
+#We are changing the datatype of 'column6name' to be an integer data type. 
 df['column6name'] = df['column6name'].astype(int)
+#Referencce Data Loading and Inspection to find out how to get the data types of your dataset. 
 ```
