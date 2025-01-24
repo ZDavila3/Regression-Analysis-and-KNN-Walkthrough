@@ -58,7 +58,7 @@ df.drop_duplicates(inplace=True)
 ```Python
 df.loc[(df==0).any(axis=1)]
 ```
-## Example of locating zero's in a particular column..
+#### Example of locating zero's in a particular column..
 ```Python
 df.loc[(df==0).any(axis=1)]
 columns_to_check = ['Column1Name', 'Column2Name', 'Column3Name', 'Column4Name']
