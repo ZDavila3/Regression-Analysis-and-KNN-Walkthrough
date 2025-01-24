@@ -68,6 +68,10 @@ df.shape  # (rows, columns)
 ```python
 df.columns
 ```
+- `.index` : View the index of your CSV file.
+```Python
+df,index
+```
 - `.dtypes` : Returns the data types of each column in the DataFrame.
 ```python
 df.dtypes
