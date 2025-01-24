@@ -31,9 +31,7 @@ Common Pandas Functions to Load Data:
 - `pd.read_sql()`: Loads data from a SQL database.
 - `pd.read_html()`: Reads tables from HTML pages.
 
-Example code of uploading my data set called "dairy_dataset.csv"
-
-Data set can be downloaded here: https://www.kaggle.com/datasets/suraj520/dairy-goods-sales-dataset/data
+I will be doing a walk though with a data set called 'dairy_dataset.csv' which can be downloaded here: https://www.kaggle.com/datasets/suraj520/dairy-goods-sales-dataset/data
 
 Data Walk through can be seen in this Colab notebook: https://colab.research.google.com/drive/1XIfrvH8TT7yAF7EoUB4acoZNlWdUNIVj?usp=sharing
 
