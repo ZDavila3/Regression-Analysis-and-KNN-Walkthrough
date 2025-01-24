@@ -67,3 +67,8 @@ df[columns_to_check] = df[columns_to_check].replace(0, np.nan)
 #prints out the number of 0's after being replaces with NAN's
 print(df.isna().sum())
 ```
+
+### .astype() - Changing a columns data type (ie. from string to int)
+```Python
+df['column6name'] = df['column6name'].astype(int)
+```
