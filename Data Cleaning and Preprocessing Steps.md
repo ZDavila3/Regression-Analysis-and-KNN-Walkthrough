@@ -58,7 +58,12 @@ df.drop_duplicates(inplace=True)
 ```Python
 df.loc[(df==0).any(axis=1)]
 ```
-columns_to_check = ['RestingBP', 'Cholesterol', 'MaxHR', 'Age']
+## Example of locating zero's in a particular column..
+```Python
+df.loc[(df==0).any(axis=1)]
+columns_to_check = ['Column1Name', 'Column2Name', 'Column3Name', 'Column4Name']
+#Replaces 0 with NAN (Not a Number) --> this is optional 
 df[columns_to_check] = df[columns_to_check].replace(0, np.nan)
+#prints out the number of 0's after being replaces with NAN's
 print(df.isna().sum())
-
+```
