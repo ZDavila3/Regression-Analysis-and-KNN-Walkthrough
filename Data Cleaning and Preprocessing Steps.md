@@ -144,3 +144,19 @@ print(df)
 df['City'] = df['City'].str.replace('New', 'Old')  # Replace 'New' with 'Old' in 'City' column
 print
 ```
+
+## Filtering & Querying
+
+### Boolean Indexing
+
+```Python
+filtered_df = df[df['Age'] > 30]  # Filter rows where 'Age' is greater than 30
+print(filtered_df)
+```
+
+### Query Methos
+
+```Python
+filtered_df = df.query('Age > 30')  # Filter rows where 'Age' is greater than 30
+print(filtered_df)
+```
