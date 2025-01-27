@@ -47,26 +47,66 @@ In terminal, run the following command:
 
 ## Implementing data cleaning funtions
 
+### Checking for Duplicates
+
+```Python
+# Identify duplicate rows
+duplicates = df.duplicated()
+print(duplicates)
+```
+
 ### Dropping Duplicates 
 
 ```Python
 df.drop_duplicates(inplace=True)
 ```
 
-### Locating zero's 
+### Locating Zero's 
 
 ```Python
 df.loc[(df==0).any(axis=1)]
 ```
 
-### Example of locating zero's in a particular column..
+### Removing Zero's
+
+```Python
+# Locate rows with any zero values
+rows_with_zeros = df.loc[(df == 0).any(axis=1)]
+
+# Remove those rows from the original DataFrame
+df = df.drop(rows_with_zeros.index)
+```
+
+### Missing Data? -> Finding and printing null values 
+
+```Python
+rows_with_missing = df.loc[df.isnull().any(axis=1)]
+print(rows_with_missing)
+```
+
+### Removing Missing Data
+
+```Python
+# Drop rows with any missing values in place
+df.dropna(inplace=True)
+```
+
+### Filling Missing Data
+```
+df = df.fillna(0)  # Replace missing values with anything, in this case it will be 0's
+print(df)
+```
+### Locating Zero's 
+
 ```Python
 df.loc[(df==0).any(axis=1)]
-columns_to_check = ['Column1Name', 'Column2Name', 'Column3Name', 'Column4Name']
-#Replaces 0 with NAN (Not a Number) --> this is optional 
-df[columns_to_check] = df[columns_to_check].replace(0, np.nan)
-#prints out the number of 0's after being replaces with NAN's
-print(df.isna().sum())
+```
+### Removing Zero's 
+
+```Python
+# Remove rows with zeros in the specific column 'A'
+df = df[df['A'] != 0]
+print(df)
 ```
 
 ### .astype() - Changing a columns data type (ie. from string to int)
