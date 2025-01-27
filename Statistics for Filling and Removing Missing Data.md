@@ -1,6 +1,6 @@
 
 ## Filling/Replacing Outliers Statistically
-#### Remove outliers with quantiles 
+### Remove outliers with quantiles 
 
 ##### Quantile-based methods are widely used in statistics to handle outliers and to make data more manageable and representative for analysis. By removing values below the 1st percentile and above the 99th percentile, you essentially filter out the most extreme outliers, which can help in creating a more robust and accurate analysis.
 
@@ -10,7 +10,7 @@ q_hi  = df['YOUR-DESIRED-COLUMN1'].quantile(0.99) #Calculate the upper quantile 
 df[(df['YOUR-DESIRED-COLUMN1'] < q_hi)&(df['YOUR-DESIRED-COLUMN1'] > q_low)] #Filter the DataFrame to remove outliers
 ```
 
-#### Remove outliers with std
+### Remove outliers with std
 
 ##### Standard Deviation: A measure of the dispersion or spread of a set of values. It quantifies the amount of variation or deviation from the mean. Empirical Rule: In a normal distribution:
 
