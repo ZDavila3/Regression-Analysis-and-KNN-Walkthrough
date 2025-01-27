@@ -1,5 +1,12 @@
+# All about Outliers
+
+## Graphing Outliers
+
+
+
 
 ## Filling/Replacing Outliers Statistically
+
 ### Remove outliers with quantiles 
 
 ##### Quantile-based methods are widely used in statistics to handle outliers and to make data more manageable and representative for analysis. By removing values below the 1st percentile and above the 99th percentile, you essentially filter out the most extreme outliers, which can help in creating a more robust and accurate analysis.
