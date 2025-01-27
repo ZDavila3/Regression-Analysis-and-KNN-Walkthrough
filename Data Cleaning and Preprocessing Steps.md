@@ -92,8 +92,9 @@ df.dropna(inplace=True)
 ```
 
 ### Filling Missing Data
-```
-df = df.fillna(0)  # Replace missing values with anything, in this case it will be 0's
+```Python
+# Replace missing values with anything, in this case it will be 0's
+df = df.fillna(0)
 print(df)
 ```
 ### Locating Zero's 
@@ -110,6 +111,7 @@ print(df)
 ```
 
 ### .astype() - Changing a columns data type (ie. from string to int)
+
 ```Python
 #We are changing the datatype of 'column6name' to be an integer data type. 
 df['column6name'] = df['column6name'].astype(int)
@@ -117,6 +119,7 @@ df['column6name'] = df['column6name'].astype(int)
 ```
 
 ### Stripping - Eliminating a specific characteristic from the front/back end of a word or name. 
+
 ```python
 #Have to combine everything you want to strip into a single string
 
@@ -128,3 +131,16 @@ df['column6name] = df['column6name'].str.rstrip("/._")
 df['column6name] = df['column6name'].str.strip("/._")
 ```
 
+### Checking for substrings using str.contains()
+
+```Python
+df = df[df['City'].str.contains('New')]  # Filter rows where 'City' contains 'New'
+print(df)
+```
+
+### Replacing using str.replace()
+
+```Python
+df['City'] = df['City'].str.replace('New', 'Old')  # Replace 'New' with 'Old' in 'City' column
+print
+```
