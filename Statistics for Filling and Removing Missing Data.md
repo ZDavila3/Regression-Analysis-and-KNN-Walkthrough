@@ -28,13 +28,15 @@ ab = np.abs(df['YOUR-DESIRED-COLUMN1']-df['YOUR-DESIRED-COLUMN1'].mean()) #calcu
 std = (3*df['YOUR-DESIRED-COLUMN1'].std()) #This line calculates three times the standard deviation of the column
 df[ab <= std ] #Filtering out outliers
 ```
-Replacing Outliers with Median
-Replace outliers with the median value to maintain the central tendency.
+### Replacing Outliers with Median
+##### Replace outliers with the median value to maintain the central tendency.
+```Python
 median = df['YOUR-DESIRED-COLUMN1'].median()
 df.loc[(df['YOUR-DESIRED-COLUMN1'] < q_low) | (df['YOUR-DESIRED-COLUMN1'] > q_hi), 'YOUR-DESIRED-COLUMN1'] = median
+```
 
-
-
-Log Transformation
-Applying a log transformation to reduce the effect of outliers and skewed data.
+### Log Transformation
+##### Applying a log transformation to reduce the effect of outliers and skewed data.
+```Python
 df['YOUR-DESIRED-COLUMN1'] = np.log(df['YOUR-DESIRED-COLUMN1'] + 1)  # Adding 1 to avoid log(0)
+```
